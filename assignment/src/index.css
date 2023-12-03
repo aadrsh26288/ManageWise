@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+.inter {
+	font-family: "Inter", sans-serif;
+}
+
+.outfit {
+	font-family: "Outfit", sans-serif;
+}
+
+body {
+	background-color: #fdf3ed;
+}
+
+.sh {
+	transition: box-shadow 450ms ease-out 77ms;
+}
+
+.sh:hover {
+	box-shadow: rgba(130, 71, 255, 0.2) 0px 0px 0px 8px;
+	transition-duration: 300;
+}
